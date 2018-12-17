@@ -1,0 +1,5 @@
+test-output/
+src/main
+src/test/resources/Reports/
+src/test/resources/Screenshot/
+target/

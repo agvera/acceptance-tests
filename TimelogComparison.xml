@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="1" verbose="1">
+
+  <test name="CompareDailyReportsOfAllUsers">
+  	<classes>
+  	   <class name="TimelogComparison.CompareDailyReportsOfAllUsers"/>   
+     </classes>
+   </test>  
+
+  <test name="CompareWeeklyReportsOfAllUsers">
+  	<classes>
+  	   <class name="TimelogComparison.CompareWeeklyReportsOfAllUsers"/>   
+     </classes>
+   </test>  
+   
+  <test name="CompareMonthlyReportsOfAllUsers">
+  	<classes>
+  	   <class name="TimelogComparison.CompareMonthlyReportsOfAllUsers"/>   
+     </classes>
+   </test>
+ 
+  <test name="CompareDailyReportsOfSingleUser">
+  	<classes>
+  	   <class name="TimelogComparison.CompareDailyReportsOfSingleUser"/>   
+     </classes>
+   </test>
+   
+    <test name="CompareEditTimeAndDailyReports">
+  	<classes>
+  	   <class name="TimelogComparison.CompareEditTimeAndDailyReports"/>   
+     </classes>
+   </test>  
+   
+   <test name="CompareDailyReportsOfSingleUserOnTimezoneChange">
+  	<classes>
+  	   <class name="TimelogComparison.CompareDailyReportsOfSingleUserOnTimezoneChange"/>
+     </classes>
+   </test>  
+</suite>

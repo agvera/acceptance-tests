@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+   
+  <test name="RestrationTestmyself1">
+  <parameter name = "name" value = "payal"/>
+  <parameter name = "email" value ="payal+104@staff.com"/>
+  <parameter name = "password" value = "payal123"/>
+  <classes>
+       <class name="TDWebTest.RegistrationPage.RegistrationTestmySelfTestBase"/>
+     </classes>
+   </test>
+   
+  
+  
+
+  
+</suite>
