@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TimelogComparison.CompareDailyReportsOfAllUsers" duration-ms="219916" started-at="2018-12-17T08:58:18Z" finished-at="2018-12-17T09:01:58Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="219916" started-at="2018-12-17T08:58:18Z" finished-at="2018-12-17T09:01:58Z">
+      <class name="TimelogComparison.CompareDailyReportsOfAllUsers">
+        <test-method status="PASS" signature="SuiteSetup()[pri:0, instance:TimelogComparison.CompareDailyReportsOfAllUsers@73f792cf]" name="SuiteSetup" is-config="true" duration-ms="6924" started-at="2018-12-17T16:58:18Z" finished-at="2018-12-17T16:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteSetup -->
+        <test-method status="PASS" signature="CompareWorkLogByDay()[pri:0, instance:TimelogComparison.CompareDailyReportsOfAllUsers@73f792cf]" name="CompareWorkLogByDay" duration-ms="212452" started-at="2018-12-17T16:58:25Z" finished-at="2018-12-17T17:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompareWorkLogByDay -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TimelogComparison.CompareDailyReportsOfAllUsers@73f792cf]" name="getResult" is-config="true" duration-ms="10" started-at="2018-12-17T17:01:57Z" finished-at="2018-12-17T17:01:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CompareWorkLogByDay status=SUCCESS method=CompareDailyReportsOfAllUsers.CompareWorkLogByDay()[pri:0, instance:TimelogComparison.CompareDailyReportsOfAllUsers@73f792cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SuiteTeardown()[pri:0, instance:TimelogComparison.CompareDailyReportsOfAllUsers@73f792cf]" name="SuiteTeardown" is-config="true" duration-ms="521" started-at="2018-12-17T17:01:57Z" finished-at="2018-12-17T17:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteTeardown -->
+      </class> <!-- TimelogComparison.CompareDailyReportsOfAllUsers -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TimelogComparison.CompareDailyReportsOfAllUsers -->
+</testng-results>
