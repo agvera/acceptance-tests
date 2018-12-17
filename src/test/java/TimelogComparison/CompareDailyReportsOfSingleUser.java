@@ -15,7 +15,7 @@ import Timesheet.TimesheetFunctions;
 
 public class CompareDailyReportsOfSingleUser extends GlobalSetup{
 	
-	@Test(dependsOnMethods="Login")
+	@Test
 	public void CompareWorkLogByDay() throws InterruptedException, IOException {
 		
 		LoginTest login = new LoginTest();

@@ -1,0 +1,27 @@
+# Created at 2018-12-17T21:10:49.027
+org.testng.TestNGException: 
+TimelogComparison.CompareDailyReportsOfSingleUser.CompareWorkLogByDay() depends on nonexistent method Login
+	at org.testng.internal.MethodHelper.findDependedUponMethods(MethodHelper.java:114)
+	at org.testng.internal.MethodHelper.topologicalSort(MethodHelper.java:241)
+	at org.testng.internal.MethodHelper.sortMethods(MethodHelper.java:317)
+	at org.testng.internal.MethodHelper.collectAndOrderMethods(MethodHelper.java:59)
+	at org.testng.TestRunner.initMethods(TestRunner.java:485)
+	at org.testng.TestRunner.init(TestRunner.java:239)
+	at org.testng.TestRunner.init(TestRunner.java:209)
+	at org.testng.TestRunner.<init>(TestRunner.java:157)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:546)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:159)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:113)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1274)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1261)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1115)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+

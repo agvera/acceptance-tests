@@ -29,7 +29,6 @@
 /Users/Gieno/acceptance-tests/src/test/java/Timeline/TimelineReportObjects.java
 /Users/Gieno/acceptance-tests/src/test/java/NewManagerUser/TDWeb_002.java
 /Users/Gieno/acceptance-tests/src/test/java/Timesheet/TimesheetObjects.java
-/Users/Gieno/acceptance-tests/src/test/java/EditTimePage/BrowserUtility.java
 /Users/Gieno/acceptance-tests/src/test/java/LoginPage/LoginTestBase.java
 /Users/Gieno/acceptance-tests/src/test/java/NavigateToPages/NavigationFunctions.java
 /Users/Gieno/acceptance-tests/src/test/java/GlobalProperties/GlobalFunctions.java
