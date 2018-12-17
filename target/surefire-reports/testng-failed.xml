@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [TimelogComparison.CompareDailyReportsOfAllUsers]">
+<suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="TimelogComparison.CompareDailyReportsOfAllUsers">
+      <class name="LoginPage.LoginTest">
         <methods>
-          <include name="SuiteTeardown"/>
-          <include name="CompareWorkLogByDay"/>
+          <include name="LoginWithValidCredentials"/>
           <include name="getResult"/>
           <include name="SuiteSetup"/>
         </methods>
-      </class> <!-- TimelogComparison.CompareDailyReportsOfAllUsers -->
+      </class> <!-- LoginPage.LoginTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
-</suite> <!-- Failed suite [TimelogComparison.CompareDailyReportsOfAllUsers] -->
+</suite> <!-- Failed suite [Command line suite] -->
