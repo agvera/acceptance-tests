@@ -11,7 +11,7 @@ import LoginPage.LoginTest;
 public class CompareDailyReportsOfSingleUserOnTimezoneChange extends GlobalSetup{
 	
 	
-	@Test(dependsOnMethods="Login")
+	@Test
 	public void CompareWorkLogByDay() throws InterruptedException, IOException {
 		
 		LoginTest login = new LoginTest();
