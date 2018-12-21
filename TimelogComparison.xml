@@ -2,31 +2,31 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="1" verbose="1">
 
-  <test name="CompareDailyReportsOfAllUsers">
+  <test name="CompareDailyReportsOfAllUsersTest">
   	<classes>
-  	   <class name="TimelogComparison.CompareDailyReportsOfAllUsers"/>   
+  	   <class name="TimelogComparison.CompareDailyReportsOfAllUsersTest"/>   
      </classes>
    </test>  
 
-  <test name="CompareWeeklyReportsOfAllUsers">
+  <test name="CompareWeeklyReportsOfAllUsersTest">
   	<classes>
   	   <class name="TimelogComparison.CompareWeeklyReportsOfAllUsersTest"/>   
      </classes>
    </test>  
    
-  <test name="CompareMonthlyReportsOfAllUsers">
+  <test name="CompareMonthlyReportsOfAllUsersTest">
   	<classes>
   	   <class name="TimelogComparison.CompareMonthlyReportsOfAllUsersTest"/>   
      </classes>
    </test>
  
-  <test name="CompareDailyReportsOfSingleUser">
+  <test name="CompareDailyReportsOfSingleUserTest">
   	<classes>
   	   <class name="TimelogComparison.CompareDailyReportsOfSingleUserTest"/>   
      </classes>
    </test>
    
-    <test name="CompareEditTimeAndDailyReports">
+    <test name="CompareEditTimeAndDailyReportsTest">
   	<classes>
   	   <class name="TimelogComparison.CompareEditTimeAndDailyReportsTest"/>   
      </classes>
