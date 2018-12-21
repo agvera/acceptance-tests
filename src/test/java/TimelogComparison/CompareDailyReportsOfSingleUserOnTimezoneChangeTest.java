@@ -8,7 +8,7 @@ import GlobalProperties.GlobalSetup;
 import CompanySettings.ChangeCompanyTimezoneTest;
 import LoginPage.LoginTest;
 
-public class CompareDailyReportsOfSingleUserOnTimezoneChange extends GlobalSetup{
+public class CompareDailyReportsOfSingleUserOnTimezoneChangeTest extends GlobalSetup{
 	
 	
 	@Test
@@ -20,7 +20,7 @@ public class CompareDailyReportsOfSingleUserOnTimezoneChange extends GlobalSetup
 		ChangeCompanyTimezoneTest change = new ChangeCompanyTimezoneTest();
 		change.ChangeCompanyTimezone();
 		
-		CompareDailyReportsOfSingleUser compareReports = new CompareDailyReportsOfSingleUser();
+		CompareDailyReportsOfSingleUserTest compareReports = new CompareDailyReportsOfSingleUserTest();
 		compareReports.CompareWorkLogByDay();
 		
 	}	

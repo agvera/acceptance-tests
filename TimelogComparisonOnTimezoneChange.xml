@@ -3,9 +3,7 @@
 <suite name="Suite" parallel="tests" thread-count="1" verbose="1">
 
   <test name="CompareDailyReportsOfAllUsers">
-  <parameter name = "email" value ="johnp+td@staff.com"/>
-  <parameter name = "password" value = "testtest"/>
-  	<classes>
+  <classes>
   	   <class name="TimelogComparison.CompareDailyReportsOfSingleUserOnTimezoneChange"/>   
      </classes>
    </test>  

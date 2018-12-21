@@ -12,7 +12,7 @@ import LoginPage.LoginTest;
 import TimeUse.TimeUseFunctions;
 import Timesheet.TimesheetFunctions;
 
-public class CompareWeeklyReportsOfAllUsers extends GlobalSetup{
+public class CompareWeeklyReportsOfAllUsersTest extends GlobalSetup{
 	
 	@Test
 	public void CompareWorkLogByDay() throws InterruptedException, IOException {

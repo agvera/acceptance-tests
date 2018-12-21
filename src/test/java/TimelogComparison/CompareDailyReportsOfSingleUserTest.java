@@ -13,7 +13,7 @@ import TimeUse.TimeUseFunctions;
 import Timeline.TimelineFunctions;
 import Timesheet.TimesheetFunctions;
 
-public class CompareDailyReportsOfSingleUser extends GlobalSetup{
+public class CompareDailyReportsOfSingleUserTest extends GlobalSetup{
 	
 	@Test
 	public void CompareWorkLogByDay() throws InterruptedException, IOException {

@@ -42,6 +42,9 @@ public class TimesheetFunctions extends GlobalSetup{
 		String currentURL = driver.getCurrentUrl();
 		Assert.assertTrue(currentURL.contains("/v2/index.php?page=timesheet"));
 		
+		// Select company timezone
+		global.SelectCompanyTimezone();
+		
 		// Filter All Users
 		test.log(LogStatus.INFO, "Filter all active users");
 		global.SelectAllUsers();
@@ -76,6 +79,9 @@ public class TimesheetFunctions extends GlobalSetup{
 		navigate.GoToTimesheetPage();
 		String currentURL = driver.getCurrentUrl();
 		Assert.assertTrue(currentURL.contains("/v2/index.php?page=timesheet"));
+		
+		// Select company timezone
+		global.SelectCompanyTimezone();
 		
 		// Filter Specific User
 		global.SelectAllUsers();

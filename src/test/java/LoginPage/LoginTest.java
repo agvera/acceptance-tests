@@ -34,7 +34,7 @@ public class LoginTest extends GlobalSetup{
 		loginEl.signinBtn().click();
 		
 		
-		Assert.assertTrue(driver.getCurrentUrl().contains("/#/dashboard") || driver.getCurrentUrl().contains("/#/dashboard_individual"));
+		Assert.assertTrue(driver.getCurrentUrl().contains("/#/dashboard-company") || driver.getCurrentUrl().contains("/#/dashboard_individual"));
 		test.log(LogStatus.PASS, "Successfully redirected to " + currentURL);
 		report.endTest(test);
 	}

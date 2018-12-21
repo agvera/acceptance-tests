@@ -10,31 +10,31 @@
 
   <test name="CompareWeeklyReportsOfAllUsers">
   	<classes>
-  	   <class name="TimelogComparison.CompareWeeklyReportsOfAllUsers"/>   
+  	   <class name="TimelogComparison.CompareWeeklyReportsOfAllUsersTest"/>   
      </classes>
    </test>  
    
   <test name="CompareMonthlyReportsOfAllUsers">
   	<classes>
-  	   <class name="TimelogComparison.CompareMonthlyReportsOfAllUsers"/>   
+  	   <class name="TimelogComparison.CompareMonthlyReportsOfAllUsersTest"/>   
      </classes>
    </test>
  
   <test name="CompareDailyReportsOfSingleUser">
   	<classes>
-  	   <class name="TimelogComparison.CompareDailyReportsOfSingleUser"/>   
+  	   <class name="TimelogComparison.CompareDailyReportsOfSingleUserTest"/>   
      </classes>
    </test>
    
     <test name="CompareEditTimeAndDailyReports">
   	<classes>
-  	   <class name="TimelogComparison.CompareEditTimeAndDailyReports"/>   
+  	   <class name="TimelogComparison.CompareEditTimeAndDailyReportsTest"/>   
      </classes>
    </test>  
    
-   <test name="CompareDailyReportsOfSingleUserOnTimezoneChange">
+   <test name="CompareDailyReportsOfSingleUserOnTimezoneChangeTest">
   	<classes>
-  	   <class name="TimelogComparison.CompareDailyReportsOfSingleUserOnTimezoneChange"/>
+  	   <class name="TimelogComparison.CompareDailyReportsOfSingleUserOnTimezoneChangeTest"/>
      </classes>
    </test>  
 </suite>
